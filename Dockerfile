@@ -3,7 +3,7 @@ FROM alpine
 LABEL maintainer="Thien Tran contact@tommytran.io"
 
 RUN apk -U upgrade \
-    && apk --no-cache libstdc++ tzdata \
+    && apk add libstdc++ tzdata \
     && rm -rf /var/cache/apk/*
 
 COPY --from=binwiederhier/ntfy /usr/bin/ntfy /usr/bin

@@ -1,6 +1,6 @@
 # nfty
 
-![Build, scan & push](https://github.com/Polarix-Containers/ntrfs/actions/workflows/build.yml/badge.svg)
+![Build, scan & push](https://github.com/Polarix-Containers/ntfy/actions/workflows/build.yml/badge.svg)
 
 ### Features & usage
 - Rebases the [official image](https://github.com/binwiederhier/ntfy) to latest Alpine, to be used as a drop-in replacement.
